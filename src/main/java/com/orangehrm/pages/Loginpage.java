@@ -26,7 +26,7 @@ public class Loginpage {
 
 
 
-
+ // By locators
 	By uname = 	By.xpath("//input[@name='username']");
 
 	By pword = 	By.xpath("//input[@name='password']");
