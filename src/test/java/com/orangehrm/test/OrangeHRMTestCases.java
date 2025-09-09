@@ -266,25 +266,25 @@ public class OrangeHRMTestCases extends Basetest {
 
 	@DataProvider(name = "loginData1")
 	public Object[][] loginDataProvider1() throws IOException {
-		String path = "D:\\Project-OrangeHRM-master\\Project-OrangeHRM-master\\data.xlsx";
+		String path = "src\\test\\resources\\data.xlsx";
 		return Excelutilities.getdata(path, "Sheet2");
 	}
 
 	@DataProvider(name = "addUserData")
 	public Object[][] addUserDataProvider() throws IOException {
-		String path = "D:\\Project-OrangeHRM-master\\Project-OrangeHRM-master\\adduser_data.xlsx"; // Use new file
+		String path = "src\\test\\resources\\data.xlsx"; // Use new file
 		return Excelutilities.getdata(path, "AddUserData");  // Use new sheet name
 	}
 
 	@DataProvider(name = "EmployeeData")
 	public Object[][] employeeSearchDataProvide() throws IOException {
-		String path = "D:\\Project-OrangeHRM-master\\Project-OrangeHRM-master\\SearchEmployee.xlsx";
+		String path = "src\\test\\resources\\data.xlsx";
 		return Excelutilities.getdata(path, "Sheet1");
 	}
 
 	@DataProvider(name = "projectdata")
 	public Object[][] projectdata() throws IOException {
-		String path = "D:\\Project-OrangeHRM-master\\Project-OrangeHRM-master\\projectdata.xlsx";
+		String path = "C:\\Users\\lenovo\\git\\OrangeHRMCapstone_Project\\Capsotne_ProjectOrangeHRM\\src\\test\\resources\\data.xlsx";
 		return Excelutilities.getdata(path, "Sheet1");
 	}
 
